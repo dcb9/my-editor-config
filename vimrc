@@ -42,7 +42,6 @@ filetype plugin indent on
 set laststatus=2
 set t_Co=256
 let g:Powerline_symbols = 'unicode'
-set encoding=cp936,gbk,utf8
 
 let mapleader = ","
 let g:mapleader = ","
@@ -63,4 +62,5 @@ map <silent> <leader>tb :TagbarToggle<cr>
 
 syntax enable
 set background=dark
-colorscheme solarized
+
+set guifont=Monaco:h12
