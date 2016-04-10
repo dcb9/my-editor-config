@@ -35,6 +35,7 @@ Bundle 'https://github.com/Lokaltog/vim-easymotion.git'
 Bundle 'https://github.com/scrooloose/nerdcommenter.git'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
+Plugin 'sjl/badwolf'
 
 filetype plugin indent on
 
@@ -62,5 +63,6 @@ map <silent> <leader>tb :TagbarToggle<cr>
 
 syntax enable
 set background=dark
+colors badwolf
 
 set guifont=Monaco:h12
